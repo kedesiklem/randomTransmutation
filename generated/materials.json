@@ -1,0 +1,3690 @@
+{
+  "fire": {
+    "color": [
+      255,
+      96,
+      0
+    ],
+    "type": "fire"
+  },
+  "spark": {
+    "color": [
+      255,
+      96,
+      36
+    ],
+    "type": "fire"
+  },
+  "spark_electric": {
+    "color": [
+      39,
+      180,
+      246
+    ],
+    "type": "fire"
+  },
+  "flame": {
+    "color": [
+      206,
+      15,
+      15
+    ],
+    "type": "fire"
+  },
+  "sand_static": {
+    "color": [
+      82,
+      79,
+      45
+    ],
+    "type": "solid"
+  },
+  "nest_static": {
+    "color": [
+      168,
+      62,
+      41
+    ],
+    "type": "solid"
+  },
+  "bluefungi_static": {
+    "color": [
+      67,
+      84,
+      149
+    ],
+    "type": "solid"
+  },
+  "rock_static": {
+    "color": [
+      49,
+      59,
+      54
+    ],
+    "type": "solid"
+  },
+  "water_static": {
+    "color": [
+      55,
+      98,
+      89
+    ],
+    "type": "liquid"
+  },
+  "endslime_static": {
+    "color": [
+      139,
+      255,
+      128
+    ],
+    "type": "liquid"
+  },
+  "slime_static": {
+    "color": [
+      232,
+      189,
+      92
+    ],
+    "type": "liquid"
+  },
+  "spore_pod_stalk": {
+    "color": [
+      232,
+      189,
+      92
+    ],
+    "type": "liquid"
+  },
+  "lavarock_static": {
+    "color": [
+      95,
+      38,
+      33
+    ],
+    "type": "solid"
+  },
+  "static_magic_material": {
+    "color": [
+      215,
+      214,
+      132
+    ],
+    "type": "solid"
+  },
+  "meteorite_static": {
+    "color": [
+      29,
+      16,
+      16
+    ],
+    "type": "solid"
+  },
+  "templerock_static": {
+    "color": [
+      111,
+      84,
+      57
+    ],
+    "type": "solid"
+  },
+  "steel_static": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "solid"
+  },
+  "rock_static_glow": {
+    "color": [
+      20,
+      80,
+      20
+    ],
+    "type": "solid"
+  },
+  "snow_static": {
+    "color": [
+      235,
+      235,
+      235
+    ],
+    "type": "solid"
+  },
+  "ice_static": {
+    "color": [
+      207,
+      247,
+      200
+    ],
+    "type": "solid"
+  },
+  "ice_acid_static": {
+    "color": [
+      207,
+      255,
+      200
+    ],
+    "type": "solid"
+  },
+  "ice_cold_static": {
+    "color": [
+      175,
+      255,
+      200
+    ],
+    "type": "solid"
+  },
+  "ice_radioactive_static": {
+    "color": [
+      191,
+      255,
+      200
+    ],
+    "type": "solid"
+  },
+  "ice_poison_static": {
+    "color": [
+      186,
+      45,
+      224
+    ],
+    "type": "solid"
+  },
+  "ice_meteor_static": {
+    "color": [
+      207,
+      31,
+      200
+    ],
+    "type": "solid"
+  },
+  "tubematerial": {
+    "color": [
+      207,
+      247,
+      197
+    ],
+    "type": "solid"
+  },
+  "glass_static": {
+    "color": [
+      161,
+      96,
+      101
+    ],
+    "type": "solid"
+  },
+  "waterrock": {
+    "color": [
+      26,
+      67,
+      244
+    ],
+    "type": "solid"
+  },
+  "ice_glass": {
+    "color": [
+      207,
+      247,
+      200
+    ],
+    "type": "solid"
+  },
+  "ice_glass_b2": {
+    "color": [
+      207,
+      247,
+      200
+    ],
+    "type": "solid"
+  },
+  "glass_brittle": {
+    "color": [
+      174,
+      221,
+      211
+    ],
+    "type": "solid"
+  },
+  "snowrock_static": {
+    "color": [
+      219,
+      219,
+      219
+    ],
+    "type": "solid"
+  },
+  "concrete_static": {
+    "color": [
+      118,
+      118,
+      118
+    ],
+    "type": "solid"
+  },
+  "wood_static": {
+    "color": [
+      65,
+      63,
+      36
+    ],
+    "type": "solid"
+  },
+  "cheese_static": {
+    "color": [
+      243,
+      205,
+      103
+    ],
+    "type": "solid"
+  },
+  "smoke": {
+    "color": [
+      132,
+      132,
+      133
+    ],
+    "type": "gas"
+  },
+  "cloud": {
+    "color": [
+      175,
+      175,
+      191
+    ],
+    "type": "gas"
+  },
+  "cloud_lighter": {
+    "color": [
+      175,
+      175,
+      229
+    ],
+    "type": "gas"
+  },
+  "smoke_explosion": {
+    "color": [
+      132,
+      132,
+      134
+    ],
+    "type": "gas"
+  },
+  "steam": {
+    "color": [
+      197,
+      197,
+      255
+    ],
+    "type": "gas"
+  },
+  "acid_gas": {
+    "color": [
+      78,
+      184,
+      53
+    ],
+    "type": "gas"
+  },
+  "acid_gas_static": {
+    "color": [
+      78,
+      184,
+      53
+    ],
+    "type": "gas"
+  },
+  "smoke_static": {
+    "color": [
+      132,
+      132,
+      135
+    ],
+    "type": "gas"
+  },
+  "blood_cold_vapour": {
+    "color": [
+      92,
+      152,
+      205
+    ],
+    "type": "gas"
+  },
+  "sand_herb_vapour": {
+    "color": [
+      110,
+      140,
+      59
+    ],
+    "type": "gas"
+  },
+  "radioactive_gas": {
+    "color": [
+      196,
+      255,
+      16
+    ],
+    "type": "gas"
+  },
+  "radioactive_gas_static": {
+    "color": [
+      196,
+      255,
+      16
+    ],
+    "type": "gas"
+  },
+  "magic_gas_hp_regeneration": {
+    "color": [
+      161,
+      241,
+      140
+    ],
+    "type": "gas"
+  },
+  "magic_gas_midas": {
+    "color": [
+      239,
+      161,
+      1
+    ],
+    "type": "gas"
+  },
+  "magic_gas_worm_blood": {
+    "color": [
+      198,
+      207,
+      39
+    ],
+    "type": "gas"
+  },
+  "rainbow_gas": {
+    "color": [
+      255,
+      162,
+      205
+    ],
+    "type": "gas"
+  },
+  "magic_gas_polymorph": {
+    "color": [
+      241,
+      123,
+      235
+    ],
+    "type": "gas"
+  },
+  "magic_gas_weakness": {
+    "color": [
+      38,
+      197,
+      40
+    ],
+    "type": "gas"
+  },
+  "magic_gas_teleport": {
+    "color": [
+      127,
+      206,
+      237
+    ],
+    "type": "gas"
+  },
+  "magic_gas_fungus": {
+    "color": [
+      240,
+      100,
+      170
+    ],
+    "type": "gas"
+  },
+  "water": {
+    "color": [
+      55,
+      98,
+      89
+    ],
+    "type": "liquid"
+  },
+  "water_temp": {
+    "color": [
+      47,
+      85,
+      79
+    ],
+    "type": "liquid"
+  },
+  "water_ice": {
+    "color": [
+      55,
+      98,
+      105
+    ],
+    "type": "liquid"
+  },
+  "water_swamp": {
+    "color": [
+      47,
+      85,
+      44
+    ],
+    "type": "liquid"
+  },
+  "oil": {
+    "color": [
+      61,
+      55,
+      40
+    ],
+    "type": "liquid"
+  },
+  "alcohol": {
+    "color": [
+      234,
+      114,
+      7
+    ],
+    "type": "liquid"
+  },
+  "beer": {
+    "color": [
+      189,
+      126,
+      5
+    ],
+    "type": "liquid"
+  },
+  "milk": {
+    "color": [
+      255,
+      246,
+      229
+    ],
+    "type": "liquid"
+  },
+  "molut": {
+    "color": [
+      180,
+      164,
+      133
+    ],
+    "type": "liquid"
+  },
+  "sima": {
+    "color": [
+      234,
+      114,
+      7
+    ],
+    "type": "liquid"
+  },
+  "juhannussima": {
+    "color": [
+      234,
+      114,
+      7
+    ],
+    "type": "liquid"
+  },
+  "alcohol_gas": {
+    "color": [
+      248,
+      125,
+      18
+    ],
+    "type": "gas"
+  },
+  "magic_liquid": {
+    "color": [
+      255,
+      254,
+      162
+    ],
+    "type": "liquid"
+  },
+  "material_confusion": {
+    "color": [
+      232,
+      189,
+      92
+    ],
+    "type": "liquid"
+  },
+  "material_darkness": {
+    "color": [
+      86,
+      62,
+      102
+    ],
+    "type": "liquid"
+  },
+  "material_rainbow": {
+    "color": [
+      255,
+      162,
+      205
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_weakness": {
+    "color": [
+      38,
+      197,
+      40
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_movement_faster": {
+    "color": [
+      193,
+      219,
+      164
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_faster_levitation": {
+    "color": [
+      246,
+      255,
+      220
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_faster_levitation_and_movement": {
+    "color": [
+      199,
+      248,
+      101
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_worm_attractor": {
+    "color": [
+      104,
+      116,
+      120
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_protection_all": {
+    "color": [
+      223,
+      152,
+      40
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_mana_regeneration": {
+    "color": [
+      11,
+      255,
+      229
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_unstable_teleportation": {
+    "color": [
+      0,
+      190,
+      228
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_teleportation": {
+    "color": [
+      127,
+      206,
+      234
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_hp_regeneration": {
+    "color": [
+      161,
+      241,
+      139
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_hp_regeneration_unstable": {
+    "color": [
+      161,
+      241,
+      140
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_polymorph": {
+    "color": [
+      241,
+      139,
+      235
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_random_polymorph": {
+    "color": [
+      145,
+      68,
+      141
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_unstable_polymorph": {
+    "color": [
+      163,
+      86,
+      159
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_berserk": {
+    "color": [
+      248,
+      104,
+      104
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_charm": {
+    "color": [
+      194,
+      48,
+      85
+    ],
+    "type": "liquid"
+  },
+  "magic_liquid_invisibility": {
+    "color": [
+      48,
+      108,
+      192
+    ],
+    "type": "liquid"
+  },
+  "cloud_radioactive": {
+    "color": [
+      180,
+      255,
+      16
+    ],
+    "type": "liquid"
+  },
+  "cloud_blood": {
+    "color": [
+      184,
+      0,
+      0
+    ],
+    "type": "liquid"
+  },
+  "cloud_slime": {
+    "color": [
+      197,
+      68,
+      124
+    ],
+    "type": "liquid"
+  },
+  "swamp": {
+    "color": [
+      47,
+      47,
+      10
+    ],
+    "type": "liquid"
+  },
+  "mud": {
+    "color": [
+      54,
+      62,
+      33
+    ],
+    "type": "powder"
+  },
+  "blood": {
+    "color": [
+      131,
+      0,
+      0
+    ],
+    "type": "liquid"
+  },
+  "blood_fading": {
+    "color": [
+      131,
+      0,
+      2
+    ],
+    "type": "liquid"
+  },
+  "blood_fungi": {
+    "color": [
+      240,
+      100,
+      170
+    ],
+    "type": "liquid"
+  },
+  "blood_worm": {
+    "color": [
+      200,
+      188,
+      0
+    ],
+    "type": "liquid"
+  },
+  "porridge": {
+    "color": [
+      215,
+      207,
+      174
+    ],
+    "type": "liquid"
+  },
+  "blood_cold": {
+    "color": [
+      61,
+      77,
+      135
+    ],
+    "type": "liquid"
+  },
+  "radioactive_liquid": {
+    "color": [
+      180,
+      255,
+      16
+    ],
+    "type": "liquid"
+  },
+  "radioactive_liquid_fading": {
+    "color": [
+      180,
+      255,
+      16
+    ],
+    "type": "liquid"
+  },
+  "plasma_fading": {
+    "color": [
+      52,
+      191,
+      255
+    ],
+    "type": "liquid"
+  },
+  "gold_molten": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "liquid"
+  },
+  "wax_molten": {
+    "color": [
+      234,
+      172,
+      171
+    ],
+    "type": "liquid"
+  },
+  "silver_molten": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "liquid"
+  },
+  "copper_molten": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "liquid"
+  },
+  "brass_molten": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "liquid"
+  },
+  "glass_molten": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "liquid"
+  },
+  "glass_broken_molten": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "liquid"
+  },
+  "steel_molten": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "liquid"
+  },
+  "creepy_liquid": {
+    "color": [
+      56,
+      23,
+      116
+    ],
+    "type": "liquid"
+  },
+  "cement": {
+    "color": [
+      128,
+      128,
+      128
+    ],
+    "type": "liquid"
+  },
+  "concrete_sand": {
+    "color": [
+      118,
+      118,
+      118
+    ],
+    "type": "powder"
+  },
+  "sand": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "bone": {
+    "color": [
+      230,
+      230,
+      255
+    ],
+    "type": "powder"
+  },
+  "soil": {
+    "color": [
+      54,
+      49,
+      30
+    ],
+    "type": "powder"
+  },
+  "sandstone": {
+    "color": [
+      144,
+      254,
+      64
+    ],
+    "type": "powder"
+  },
+  "fungisoil": {
+    "color": [
+      54,
+      49,
+      30
+    ],
+    "type": "powder"
+  },
+  "honey": {
+    "color": [
+      232,
+      189,
+      90
+    ],
+    "type": "powder"
+  },
+  "glue": {
+    "color": [
+      246,
+      252,
+      227
+    ],
+    "type": "powder"
+  },
+  "slime": {
+    "color": [
+      184,
+      55,
+      109
+    ],
+    "type": "liquid"
+  },
+  "slush": {
+    "color": [
+      181,
+      206,
+      255
+    ],
+    "type": "liquid"
+  },
+  "explosion_dirt": {
+    "color": [
+      54,
+      49,
+      31
+    ],
+    "type": "powder"
+  },
+  "vine": {
+    "color": [
+      82,
+      111,
+      54
+    ],
+    "type": "solid"
+  },
+  "root": {
+    "color": [
+      42,
+      114,
+      74
+    ],
+    "type": "solid"
+  },
+  "snow": {
+    "color": [
+      244,
+      244,
+      243
+    ],
+    "type": "powder"
+  },
+  "snow_sticky": {
+    "color": [
+      238,
+      238,
+      238
+    ],
+    "type": "powder"
+  },
+  "rotten_meat": {
+    "color": [
+      204,
+      76,
+      76
+    ],
+    "type": "powder"
+  },
+  "meat_slime_sand": {
+    "color": [
+      237,
+      76,
+      76
+    ],
+    "type": "powder"
+  },
+  "rotten_meat_radioactive": {
+    "color": [
+      204,
+      76,
+      76
+    ],
+    "type": "powder"
+  },
+  "ice": {
+    "color": [
+      207,
+      207,
+      240
+    ],
+    "type": "powder"
+  },
+  "sand_herb": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "wax": {
+    "color": [
+      234,
+      170,
+      171
+    ],
+    "type": "powder"
+  },
+  "gold": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "powder"
+  },
+  "silver": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "powder"
+  },
+  "copper": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "powder"
+  },
+  "brass": {
+    "color": [
+      184,
+      158,
+      88
+    ],
+    "type": "powder"
+  },
+  "diamond": {
+    "color": [
+      130,
+      219,
+      226
+    ],
+    "type": "powder"
+  },
+  "coal": {
+    "color": [
+      80,
+      80,
+      80
+    ],
+    "type": "powder"
+  },
+  "sulphur": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "salt": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "sodium_unstable": {
+    "color": [
+      65,
+      31,
+      36
+    ],
+    "type": "powder"
+  },
+  "gunpowder": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "gunpowder_explosive": {
+    "color": [
+      247,
+      187,
+      67
+    ],
+    "type": "powder"
+  },
+  "gunpowder_tnt": {
+    "color": [
+      247,
+      191,
+      67
+    ],
+    "type": "powder"
+  },
+  "gunpowder_unstable": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "gunpowder_unstable_big": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "monster_powder_test": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "rat_powder": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "fungus_powder": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "orb_powder": {
+    "color": [
+      247,
+      243,
+      238
+    ],
+    "type": "powder"
+  },
+  "gunpowder_unstable_boss_limbs": {
+    "color": [
+      128,
+      200,
+      80
+    ],
+    "type": "powder"
+  },
+  "plastic_red": {
+    "color": [
+      144,
+      0,
+      0
+    ],
+    "type": "powder"
+  },
+  "plastic_red_molten": {
+    "color": [
+      144,
+      0,
+      171
+    ],
+    "type": "liquid"
+  },
+  "grass": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "grass_holy": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "grass_darker": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "grass_ice": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "grass_dry": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "fungi": {
+    "color": [
+      240,
+      100,
+      170
+    ],
+    "type": "powder"
+  },
+  "spore": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "moss": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "plant_material": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "plant_material_red": {
+    "color": [
+      170,
+      40,
+      24
+    ],
+    "type": "powder"
+  },
+  "plant_material_dark": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "ceiling_plant_material": {
+    "color": [
+      51,
+      184,
+      40
+    ],
+    "type": "powder"
+  },
+  "mushroom_seed": {
+    "color": [
+      184,
+      159,
+      108
+    ],
+    "type": "powder"
+  },
+  "plant_seed": {
+    "color": [
+      188,
+      155,
+      88
+    ],
+    "type": "powder"
+  },
+  "mushroom": {
+    "color": [
+      184,
+      159,
+      124
+    ],
+    "type": "powder"
+  },
+  "mushroom_giant_red": {
+    "color": [
+      217,
+      217,
+      205
+    ],
+    "type": "powder"
+  },
+  "mushroom_giant_blue": {
+    "color": [
+      217,
+      217,
+      204
+    ],
+    "type": "powder"
+  },
+  "glowshroom": {
+    "color": [
+      217,
+      217,
+      203
+    ],
+    "type": "powder"
+  },
+  "bush_seed": {
+    "color": [
+      77,
+      93,
+      68
+    ],
+    "type": "powder"
+  },
+  "acid": {
+    "color": [
+      0,
+      237,
+      50
+    ],
+    "type": "liquid"
+  },
+  "lava": {
+    "color": [
+      255,
+      96,
+      0
+    ],
+    "type": "liquid"
+  },
+  "wood_player": {
+    "color": [
+      65,
+      63,
+      36
+    ],
+    "type": "solid"
+  },
+  "wood_player_b2": {
+    "color": [
+      65,
+      63,
+      36
+    ],
+    "type": "solid"
+  },
+  "wood": {
+    "color": [
+      65,
+      63,
+      36
+    ],
+    "type": "solid"
+  },
+  "wax_b2": {
+    "color": [
+      234,
+      170,
+      172
+    ],
+    "type": "solid"
+  },
+  "fuse": {
+    "color": [
+      88,
+      102,
+      121
+    ],
+    "type": "solid"
+  },
+  "wood_loose": {
+    "color": [
+      93,
+      90,
+      51
+    ],
+    "type": "solid"
+  },
+  "rock_loose": {
+    "color": [
+      147,
+      125,
+      88
+    ],
+    "type": "solid"
+  },
+  "ice_ceiling": {
+    "color": [
+      59,
+      147,
+      187
+    ],
+    "type": "solid"
+  },
+  "brick": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "concrete_collapsed": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "tnt": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "tnt_static": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "trailer_text": {
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "type": "solid"
+  },
+  "meteorite": {
+    "color": [
+      29,
+      16,
+      16
+    ],
+    "type": "solid"
+  },
+  "sulphur_box2d": {
+    "color": [
+      201,
+      193,
+      105
+    ],
+    "type": "solid"
+  },
+  "meteorite_test": {
+    "color": [
+      29,
+      16,
+      16
+    ],
+    "type": "solid"
+  },
+  "meteorite_green": {
+    "color": [
+      49,
+      59,
+      54
+    ],
+    "type": "solid"
+  },
+  "steel": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "steel_rust": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "metal_rust_rust": {
+    "color": [
+      115,
+      163,
+      127
+    ],
+    "type": "solid"
+  },
+  "metal_rust_barrel_rust": {
+    "color": [
+      115,
+      163,
+      127
+    ],
+    "type": "solid"
+  },
+  "plastic": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "aluminium": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "rock_static_box2d": {
+    "color": [
+      207,
+      247,
+      200
+    ],
+    "type": "solid"
+  },
+  "rock_box2d": {
+    "color": [
+      45,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "crystal": {
+    "color": [
+      116,
+      115,
+      127
+    ],
+    "type": "solid"
+  },
+  "magic_crystal": {
+    "color": [
+      95,
+      205,
+      228
+    ],
+    "type": "solid"
+  },
+  "crystal_magic": {
+    "color": [
+      116,
+      115,
+      126
+    ],
+    "type": "solid"
+  },
+  "aluminium_oxide": {
+    "color": [
+      115,
+      116,
+      127
+    ],
+    "type": "solid"
+  },
+  "meat": {
+    "color": [
+      204,
+      76,
+      76
+    ],
+    "type": "solid"
+  },
+  "meat_slime": {
+    "color": [
+      204,
+      76,
+      76
+    ],
+    "type": "solid"
+  },
+  "urine": {
+    "color": [
+      255,
+      238,
+      0
+    ],
+    "type": "liquid"
+  },
+  "poo": {
+    "color": [
+      54,
+      49,
+      30
+    ],
+    "type": "powder"
+  },
+  "mammi": {
+    "color": [
+      54,
+      49,
+      30
+    ],
+    "type": "powder"
+  },
+  "physics_throw_material_part2": {
+    "color": [
+      222,
+      225,
+      254
+    ],
+    "type": "solid"
+  },
+  "rocket_particles": {
+    "color": [
+      255,
+      255,
+      254
+    ],
+    "type": "liquid"
+  },
+  "ice_melting_perf_killer": {
+    "color": [
+      59,
+      147,
+      187
+    ],
+    "type": "solid"
+  },
+  "ice_b2": {
+    "color": [
+      59,
+      147,
+      187
+    ],
+    "type": "solid"
+  },
+  "glass_liquidcave": {
+    "color": [
+      207,
+      247,
+      200
+    ],
+    "type": "solid"
+  },
+  "glass": {
+    "color": [
+      174,
+      221,
+      238
+    ],
+    "type": "solid"
+  },
+  "glass_broken": {
+    "color": [
+      174,
+      221,
+      238
+    ],
+    "type": "powder"
+  },
+  "neon_tube_purple": {
+    "color": [
+      207,
+      247,
+      200
+    ],
+    "type": "solid"
+  },
+  "blood_thick": {
+    "color": [
+      255,
+      118,
+      116
+    ],
+    "type": "solid"
+  },
+  "snow_b2": {
+    "color": [
+      244,
+      244,
+      243
+    ],
+    "type": "solid"
+  },
+  "fire_blue": {
+    "color": [
+      130,
+      220,
+      255
+    ],
+    "type": "fire"
+  },
+  "spark_green": {
+    "color": [
+      150,
+      255,
+      70
+    ],
+    "type": "fire"
+  },
+  "spark_green_bright": {
+    "color": [
+      150,
+      255,
+      70
+    ],
+    "type": "fire"
+  },
+  "spark_blue": {
+    "color": [
+      130,
+      220,
+      255
+    ],
+    "type": "fire"
+  },
+  "spark_blue_dark": {
+    "color": [
+      32,
+      91,
+      254
+    ],
+    "type": "fire"
+  },
+  "spark_red": {
+    "color": [
+      255,
+      40,
+      19
+    ],
+    "type": "fire"
+  },
+  "spark_red_bright": {
+    "color": [
+      255,
+      40,
+      19
+    ],
+    "type": "fire"
+  },
+  "spark_white": {
+    "color": [
+      254,
+      254,
+      255
+    ],
+    "type": "fire"
+  },
+  "spark_white_bright": {
+    "color": [
+      254,
+      254,
+      255
+    ],
+    "type": "fire"
+  },
+  "spark_yellow": {
+    "color": [
+      255,
+      172,
+      15
+    ],
+    "type": "fire"
+  },
+  "spark_purple": {
+    "color": [
+      180,
+      60,
+      255
+    ],
+    "type": "fire"
+  },
+  "spark_purple_bright": {
+    "color": [
+      124,
+      65,
+      255
+    ],
+    "type": "fire"
+  },
+  "spark_player": {
+    "color": [
+      127,
+      84,
+      118
+    ],
+    "type": "fire"
+  },
+  "spark_teal": {
+    "color": [
+      68,
+      243,
+      147
+    ],
+    "type": "fire"
+  },
+  "sand_static_rainforest": {
+    "color": [
+      82,
+      79,
+      0
+    ],
+    "type": "solid"
+  },
+  "sand_static_rainforest_dark": {
+    "color": [
+      38,
+      31,
+      38
+    ],
+    "type": "solid"
+  },
+  "bone_static": {
+    "color": [
+      82,
+      79,
+      0
+    ],
+    "type": "solid"
+  },
+  "rust_static": {
+    "color": [
+      238,
+      143,
+      73
+    ],
+    "type": "solid"
+  },
+  "sand_static_bright": {
+    "color": [
+      239,
+      143,
+      73
+    ],
+    "type": "solid"
+  },
+  "meat_static": {
+    "color": [
+      154,
+      81,
+      73
+    ],
+    "type": "solid"
+  },
+  "sand_static_red": {
+    "color": [
+      255,
+      143,
+      71
+    ],
+    "type": "solid"
+  },
+  "rock_static_intro": {
+    "color": [
+      49,
+      59,
+      54
+    ],
+    "type": "solid"
+  },
+  "rock_static_trip_secret": {
+    "color": [
+      49,
+      59,
+      54
+    ],
+    "type": "solid"
+  },
+  "rock_static_trip_secret2": {
+    "color": [
+      49,
+      59,
+      54
+    ],
+    "type": "solid"
+  },
+  "rock_static_cursed": {
+    "color": [
+      49,
+      59,
+      54
+    ],
+    "type": "solid"
+  },
+  "rock_static_purple": {
+    "color": [
+      39,
+      34,
+      36
+    ],
+    "type": "solid"
+  },
+  "rock_hard": {
+    "color": [
+      0,
+      51,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_static_fungal": {
+    "color": [
+      73,
+      89,
+      120
+    ],
+    "type": "solid"
+  },
+  "wood_tree": {
+    "color": [
+      0,
+      51,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_static_noedge": {
+    "color": [
+      0,
+      51,
+      69
+    ],
+    "type": "solid"
+  },
+  "rock_hard_border": {
+    "color": [
+      16,
+      67,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_magic_gate": {
+    "color": [
+      171,
+      51,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_magic_bottom": {
+    "color": [
+      171,
+      179,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_eroding": {
+    "color": [
+      171,
+      179,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_vault": {
+    "color": [
+      0,
+      51,
+      68
+    ],
+    "type": "solid"
+  },
+  "coal_static": {
+    "color": [
+      18,
+      68,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_static_grey": {
+    "color": [
+      18,
+      68,
+      164
+    ],
+    "type": "solid"
+  },
+  "rock_static_radioactive": {
+    "color": [
+      0,
+      51,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_static_cursed_green": {
+    "color": [
+      0,
+      51,
+      68
+    ],
+    "type": "solid"
+  },
+  "rock_static_poison": {
+    "color": [
+      180,
+      60,
+      255
+    ],
+    "type": "solid"
+  },
+  "rock_static_wet": {
+    "color": [
+      16,
+      51,
+      68
+    ],
+    "type": "solid"
+  },
+  "templebrick_static": {
+    "color": [
+      120,
+      108,
+      66
+    ],
+    "type": "solid"
+  },
+  "templebrick_static_broken": {
+    "color": [
+      120,
+      108,
+      66
+    ],
+    "type": "solid"
+  },
+  "templebrick_static_soft": {
+    "color": [
+      120,
+      108,
+      66
+    ],
+    "type": "solid"
+  },
+  "templebrick_noedge_static": {
+    "color": [
+      120,
+      108,
+      68
+    ],
+    "type": "solid"
+  },
+  "templerock_soft": {
+    "color": [
+      111,
+      84,
+      57
+    ],
+    "type": "solid"
+  },
+  "templebrick_thick_static": {
+    "color": [
+      100,
+      108,
+      88
+    ],
+    "type": "solid"
+  },
+  "templebrick_thick_static_noedge": {
+    "color": [
+      100,
+      108,
+      88
+    ],
+    "type": "solid"
+  },
+  "templeslab_static": {
+    "color": [
+      78,
+      67,
+      67
+    ],
+    "type": "solid"
+  },
+  "templeslab_crumbling_static": {
+    "color": [
+      78,
+      67,
+      67
+    ],
+    "type": "solid"
+  },
+  "templebrickdark_static": {
+    "color": [
+      91,
+      80,
+      71
+    ],
+    "type": "solid"
+  },
+  "wizardstone": {
+    "color": [
+      120,
+      108,
+      66
+    ],
+    "type": "solid"
+  },
+  "templebrick_golden_static": {
+    "color": [
+      176,
+      126,
+      19
+    ],
+    "type": "solid"
+  },
+  "templebrick_diamond_static": {
+    "color": [
+      94,
+      154,
+      181
+    ],
+    "type": "solid"
+  },
+  "templebrick_static_ruined": {
+    "color": [
+      120,
+      108,
+      66
+    ],
+    "type": "solid"
+  },
+  "glowstone": {
+    "color": [
+      170,
+      240,
+      110
+    ],
+    "type": "solid"
+  },
+  "glowstone_altar": {
+    "color": [
+      47,
+      235,
+      72
+    ],
+    "type": "solid"
+  },
+  "glowstone_altar_hdr": {
+    "color": [
+      47,
+      235,
+      72
+    ],
+    "type": "solid"
+  },
+  "glowstone_potion": {
+    "color": [
+      170,
+      240,
+      110
+    ],
+    "type": "solid"
+  },
+  "templebrick_red": {
+    "color": [
+      120,
+      172,
+      66
+    ],
+    "type": "solid"
+  },
+  "templebrick_moss_static": {
+    "color": [
+      120,
+      108,
+      66
+    ],
+    "type": "solid"
+  },
+  "the_end": {
+    "color": [
+      2,
+      108,
+      5
+    ],
+    "type": "solid"
+  },
+  "steelmoss_static": {
+    "color": [
+      120,
+      122,
+      85
+    ],
+    "type": "solid"
+  },
+  "steel_rusted_no_holes": {
+    "color": [
+      144,
+      79,
+      58
+    ],
+    "type": "solid"
+  },
+  "steel_grey_static": {
+    "color": [
+      144,
+      79,
+      58
+    ],
+    "type": "solid"
+  },
+  "steelfrost_static": {
+    "color": [
+      89,
+      111,
+      110
+    ],
+    "type": "solid"
+  },
+  "steelmoss_slanted": {
+    "color": [
+      120,
+      122,
+      133
+    ],
+    "type": "solid"
+  },
+  "steelsmoke_static": {
+    "color": [
+      100,
+      100,
+      85
+    ],
+    "type": "solid"
+  },
+  "steelpipe_static": {
+    "color": [
+      100,
+      100,
+      85
+    ],
+    "type": "solid"
+  },
+  "steel_static_strong": {
+    "color": [
+      64,
+      64,
+      65
+    ],
+    "type": "solid"
+  },
+  "steel_static_unmeltable": {
+    "color": [
+      64,
+      64,
+      65
+    ],
+    "type": "solid"
+  },
+  "rock_static_intro_breakable": {
+    "color": [
+      49,
+      59,
+      54
+    ],
+    "type": "solid"
+  },
+  "ice_blood_static": {
+    "color": [
+      203,
+      112,
+      112
+    ],
+    "type": "solid"
+  },
+  "ice_slime_static": {
+    "color": [
+      184,
+      112,
+      210
+    ],
+    "type": "solid"
+  },
+  "tube_physics": {
+    "color": [
+      65,
+      63,
+      66
+    ],
+    "type": "solid"
+  },
+  "ice_acid_glass": {
+    "color": [
+      65,
+      255,
+      66
+    ],
+    "type": "solid"
+  },
+  "ice_cold_glass": {
+    "color": [
+      161,
+      255,
+      66
+    ],
+    "type": "solid"
+  },
+  "ice_radioactive_glass": {
+    "color": [
+      177,
+      255,
+      66
+    ],
+    "type": "solid"
+  },
+  "ice_poison_glass": {
+    "color": [
+      188,
+      58,
+      224
+    ],
+    "type": "solid"
+  },
+  "ice_blood_glass": {
+    "color": [
+      188,
+      64,
+      226
+    ],
+    "type": "solid"
+  },
+  "ice_slime_glass": {
+    "color": [
+      188,
+      16,
+      226
+    ],
+    "type": "solid"
+  },
+  "wood_static_wet": {
+    "color": [
+      65,
+      63,
+      65
+    ],
+    "type": "solid"
+  },
+  "root_growth": {
+    "color": [
+      0,
+      117,
+      64
+    ],
+    "type": "solid"
+  },
+  "wood_burns_forever": {
+    "color": [
+      65,
+      63,
+      67
+    ],
+    "type": "solid"
+  },
+  "creepy_liquid_emitter": {
+    "color": [
+      65,
+      175,
+      65
+    ],
+    "type": "solid"
+  },
+  "gold_static": {
+    "color": [
+      74,
+      175,
+      65
+    ],
+    "type": "solid"
+  },
+  "gold_static_radioactive": {
+    "color": [
+      74,
+      175,
+      69
+    ],
+    "type": "solid"
+  },
+  "gold_static_dark": {
+    "color": [
+      74,
+      207,
+      65
+    ],
+    "type": "solid"
+  },
+  "wood_static_vertical": {
+    "color": [
+      65,
+      63,
+      58
+    ],
+    "type": "solid"
+  },
+  "wood_static_gas": {
+    "color": [
+      65,
+      79,
+      65
+    ],
+    "type": "solid"
+  },
+  "corruption_static": {
+    "color": [
+      125,
+      0,
+      103
+    ],
+    "type": "solid"
+  },
+  "smoke_magic": {
+    "color": [
+      165,
+      61,
+      119
+    ],
+    "type": "gas"
+  },
+  "steam_trailer": {
+    "color": [
+      132,
+      167,
+      190
+    ],
+    "type": "gas"
+  },
+  "poison_gas": {
+    "color": [
+      180,
+      44,
+      255
+    ],
+    "type": "gas"
+  },
+  "fungal_gas": {
+    "color": [
+      234,
+      28,
+      175
+    ],
+    "type": "gas"
+  },
+  "poo_gas": {
+    "color": [
+      114,
+      79,
+      67
+    ],
+    "type": "gas"
+  },
+  "water_fading": {
+    "color": [
+      55,
+      98,
+      89
+    ],
+    "type": "liquid"
+  },
+  "water_salt": {
+    "color": [
+      47,
+      117,
+      76
+    ],
+    "type": "liquid"
+  },
+  "void_liquid": {
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "type": "liquid"
+  },
+  "mimic_liquid": {
+    "color": [
+      232,
+      189,
+      92
+    ],
+    "type": "liquid"
+  },
+  "just_death": {
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "type": "liquid"
+  },
+  "liquid_fire": {
+    "color": [
+      240,
+      132,
+      0
+    ],
+    "type": "liquid"
+  },
+  "liquid_fire_weak": {
+    "color": [
+      235,
+      205,
+      0
+    ],
+    "type": "liquid"
+  },
+  "midas_precursor": {
+    "color": [
+      36,
+      60,
+      255
+    ],
+    "type": "liquid"
+  },
+  "midas": {
+    "color": [
+      239,
+      161,
+      1
+    ],
+    "type": "liquid"
+  },
+  "pus": {
+    "color": [
+      105,
+      86,
+      66
+    ],
+    "type": "liquid"
+  },
+  "blood_fading_slow": {
+    "color": [
+      131,
+      0,
+      0
+    ],
+    "type": "liquid"
+  },
+  "poison": {
+    "color": [
+      180,
+      60,
+      255
+    ],
+    "type": "liquid"
+  },
+  "cursed_liquid": {
+    "color": [
+      54,
+      146,
+      68
+    ],
+    "type": "liquid"
+  },
+  "radioactive_liquid_yellow": {
+    "color": [
+      180,
+      255,
+      16
+    ],
+    "type": "liquid"
+  },
+  "plasma_fading_bright": {
+    "color": [
+      54,
+      205,
+      255
+    ],
+    "type": "liquid"
+  },
+  "plasma_fading_green": {
+    "color": [
+      120,
+      240,
+      80
+    ],
+    "type": "liquid"
+  },
+  "plasma_fading_pink": {
+    "color": [
+      255,
+      80,
+      240
+    ],
+    "type": "liquid"
+  },
+  "steel_static_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "steelmoss_slanted_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "steelmoss_static_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "steelsmoke_static_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "metal_sand_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "metal_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "metal_rust_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "metal_nohit_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "aluminium_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "aluminium_robot_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "metal_prop_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "steel_rust_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "aluminium_oxide_molten": {
+    "color": [
+      64,
+      64,
+      64
+    ],
+    "type": "liquid"
+  },
+  "sand_blue": {
+    "color": [
+      0,
+      130,
+      64
+    ],
+    "type": "powder"
+  },
+  "sand_surface": {
+    "color": [
+      184,
+      158,
+      87
+    ],
+    "type": "powder"
+  },
+  "lavasand": {
+    "color": [
+      10,
+      130,
+      64
+    ],
+    "type": "powder"
+  },
+  "sand_petrify": {
+    "color": [
+      170,
+      170,
+      170
+    ],
+    "type": "powder"
+  },
+  "soil_lush": {
+    "color": [
+      0,
+      128,
+      64
+    ],
+    "type": "powder"
+  },
+  "soil_lush_dark": {
+    "color": [
+      64,
+      50,
+      61
+    ],
+    "type": "powder"
+  },
+  "soil_dead": {
+    "color": [
+      112,
+      128,
+      64
+    ],
+    "type": "powder"
+  },
+  "soil_dark": {
+    "color": [
+      112,
+      128,
+      64
+    ],
+    "type": "powder"
+  },
+  "sandstone_surface": {
+    "color": [
+      144,
+      254,
+      64
+    ],
+    "type": "powder"
+  },
+  "slime_green": {
+    "color": [
+      79,
+      171,
+      46
+    ],
+    "type": "liquid"
+  },
+  "slime_yellow": {
+    "color": [
+      156,
+      179,
+      43
+    ],
+    "type": "liquid"
+  },
+  "pea_soup": {
+    "color": [
+      79,
+      171,
+      46
+    ],
+    "type": "liquid"
+  },
+  "endslime": {
+    "color": [
+      171,
+      55,
+      44
+    ],
+    "type": "liquid"
+  },
+  "endslime_blood": {
+    "color": [
+      171,
+      55,
+      44
+    ],
+    "type": "liquid"
+  },
+  "meat_slime_green": {
+    "color": [
+      237,
+      77,
+      76
+    ],
+    "type": "solid"
+  },
+  "meat_slime_orange": {
+    "color": [
+      254,
+      175,
+      44
+    ],
+    "type": "solid"
+  },
+  "meat_worm": {
+    "color": [
+      235,
+      205,
+      0
+    ],
+    "type": "solid"
+  },
+  "meat_helpless": {
+    "color": [
+      227,
+      195,
+      162
+    ],
+    "type": "solid"
+  },
+  "meat_trippy": {
+    "color": [
+      226,
+      194,
+      164
+    ],
+    "type": "solid"
+  },
+  "meat_frog": {
+    "color": [
+      226,
+      194,
+      165
+    ],
+    "type": "solid"
+  },
+  "meat_cursed": {
+    "color": [
+      227,
+      193,
+      161
+    ],
+    "type": "solid"
+  },
+  "meat_cursed_dry": {
+    "color": [
+      227,
+      193,
+      164
+    ],
+    "type": "solid"
+  },
+  "meat_slime_cursed": {
+    "color": [
+      226,
+      203,
+      176
+    ],
+    "type": "solid"
+  },
+  "meat_teleport": {
+    "color": [
+      187,
+      193,
+      161
+    ],
+    "type": "solid"
+  },
+  "meat_fast": {
+    "color": [
+      187,
+      241,
+      17
+    ],
+    "type": "solid"
+  },
+  "meat_polymorph": {
+    "color": [
+      179,
+      161,
+      129
+    ],
+    "type": "solid"
+  },
+  "meat_polymorph_protection": {
+    "color": [
+      180,
+      162,
+      130
+    ],
+    "type": "solid"
+  },
+  "meat_confusion": {
+    "color": [
+      179,
+      160,
+      112
+    ],
+    "type": "solid"
+  },
+  "gold_radioactive": {
+    "color": [
+      184,
+      174,
+      88
+    ],
+    "type": "powder"
+  },
+  "steel_sand": {
+    "color": [
+      235,
+      244,
+      161
+    ],
+    "type": "powder"
+  },
+  "metal_sand": {
+    "color": [
+      235,
+      244,
+      161
+    ],
+    "type": "powder"
+  },
+  "sodium": {
+    "color": [
+      65,
+      15,
+      36
+    ],
+    "type": "powder"
+  },
+  "purifying_powder": {
+    "color": [
+      182,
+      213,
+      216
+    ],
+    "type": "powder"
+  },
+  "burning_powder": {
+    "color": [
+      161,
+      15,
+      36
+    ],
+    "type": "powder"
+  },
+  "fungus_powder_bad": {
+    "color": [
+      161,
+      15,
+      36
+    ],
+    "type": "powder"
+  },
+  "shock_powder": {
+    "color": [
+      161,
+      15,
+      36
+    ],
+    "type": "powder"
+  },
+  "plastic_molten": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "liquid"
+  },
+  "plastic_prop_molten": {
+    "color": [
+      115,
+      115,
+      127
+    ],
+    "type": "liquid"
+  },
+  "fungi_green": {
+    "color": [
+      69,
+      255,
+      69
+    ],
+    "type": "powder"
+  },
+  "fungi_yellow": {
+    "color": [
+      190,
+      198,
+      57
+    ],
+    "type": "powder"
+  },
+  "grass_dark": {
+    "color": [
+      127,
+      80,
+      109
+    ],
+    "type": "powder"
+  },
+  "fungi_creeping": {
+    "color": [
+      69,
+      255,
+      69
+    ],
+    "type": "powder"
+  },
+  "fungi_creeping_secret": {
+    "color": [
+      69,
+      255,
+      69
+    ],
+    "type": "powder"
+  },
+  "peat": {
+    "color": [
+      69,
+      170,
+      69
+    ],
+    "type": "powder"
+  },
+  "moss_rust": {
+    "color": [
+      154,
+      94,
+      76
+    ],
+    "type": "powder"
+  },
+  "wood_player_b2_vertical": {
+    "color": [
+      161,
+      63,
+      2
+    ],
+    "type": "solid"
+  },
+  "fuse_bright": {
+    "color": [
+      171,
+      87,
+      160
+    ],
+    "type": "solid"
+  },
+  "fuse_tnt": {
+    "color": [
+      48,
+      64,
+      85
+    ],
+    "type": "solid"
+  },
+  "fuse_holy": {
+    "color": [
+      240,
+      212,
+      71
+    ],
+    "type": "solid"
+  },
+  "templebrick_box2d": {
+    "color": [
+      100,
+      70,
+      32
+    ],
+    "type": "solid"
+  },
+  "wood_trailer": {
+    "color": [
+      164,
+      70,
+      32
+    ],
+    "type": "solid"
+  },
+  "wood_wall": {
+    "color": [
+      100,
+      70,
+      0
+    ],
+    "type": "solid"
+  },
+  "cactus": {
+    "color": [
+      100,
+      246,
+      64
+    ],
+    "type": "solid"
+  },
+  "grass_loose": {
+    "color": [
+      100,
+      246,
+      64
+    ],
+    "type": "solid"
+  },
+  "fungus_loose": {
+    "color": [
+      100,
+      171,
+      64
+    ],
+    "type": "solid"
+  },
+  "fungus_loose_green": {
+    "color": [
+      100,
+      171,
+      44
+    ],
+    "type": "solid"
+  },
+  "fungus_loose_trippy": {
+    "color": [
+      100,
+      171,
+      64
+    ],
+    "type": "solid"
+  },
+  "wood_prop": {
+    "color": [
+      150,
+      100,
+      0
+    ],
+    "type": "solid"
+  },
+  "wood_prop_noplayerhit": {
+    "color": [
+      150,
+      100,
+      0
+    ],
+    "type": "solid"
+  },
+  "cloth_box2d": {
+    "color": [
+      147,
+      127,
+      82
+    ],
+    "type": "solid"
+  },
+  "wood_prop_durable": {
+    "color": [
+      150,
+      100,
+      16
+    ],
+    "type": "solid"
+  },
+  "nest_box2d": {
+    "color": [
+      59,
+      141,
+      75
+    ],
+    "type": "solid"
+  },
+  "nest_firebug_box2d": {
+    "color": [
+      59,
+      141,
+      75
+    ],
+    "type": "solid"
+  },
+  "cocoon_box2d": {
+    "color": [
+      63,
+      141,
+      75
+    ],
+    "type": "solid"
+  },
+  "meteorite_crackable": {
+    "color": [
+      168,
+      108,
+      66
+    ],
+    "type": "solid"
+  },
+  "plastic_prop": {
+    "color": [
+      59,
+      93,
+      75
+    ],
+    "type": "solid"
+  },
+  "aluminium_robot": {
+    "color": [
+      60,
+      45,
+      60
+    ],
+    "type": "solid"
+  },
+  "metal_prop": {
+    "color": [
+      150,
+      136,
+      0
+    ],
+    "type": "solid"
+  },
+  "metal_prop_low_restitution": {
+    "color": [
+      150,
+      136,
+      0
+    ],
+    "type": "solid"
+  },
+  "metal_prop_loose": {
+    "color": [
+      150,
+      136,
+      0
+    ],
+    "type": "solid"
+  },
+  "metal": {
+    "color": [
+      61,
+      45,
+      60
+    ],
+    "type": "solid"
+  },
+  "metal_hard": {
+    "color": [
+      61,
+      45,
+      60
+    ],
+    "type": "solid"
+  },
+  "templebrick_box2d_edgetiles": {
+    "color": [
+      120,
+      108,
+      66
+    ],
+    "type": "solid"
+  },
+  "rock_box2d_hard": {
+    "color": [
+      45,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "poop_box2d_hard": {
+    "color": [
+      163,
+      132,
+      49
+    ],
+    "type": "solid"
+  },
+  "rock_box2d_nohit": {
+    "color": [
+      45,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "rock_box2d_nohit_heavy": {
+    "color": [
+      45,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "rock_box2d_nohit_hard": {
+    "color": [
+      45,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "item_box2d": {
+    "color": [
+      254,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "item_box2d_glass": {
+    "color": [
+      254,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "item_box2d_meat": {
+    "color": [
+      254,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "gem_box2d": {
+    "color": [
+      87,
+      135,
+      231
+    ],
+    "type": "solid"
+  },
+  "potion_glass_box2d": {
+    "color": [
+      87,
+      135,
+      231
+    ],
+    "type": "solid"
+  },
+  "glass_box2d": {
+    "color": [
+      87,
+      135,
+      231
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_yellow_sun": {
+    "color": [
+      255,
+      199,
+      78
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_red_float": {
+    "color": [
+      231,
+      40,
+      80
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_yellow_sun_gravity": {
+    "color": [
+      255,
+      199,
+      78
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_darksun": {
+    "color": [
+      30,
+      72,
+      102
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_pink": {
+    "color": [
+      227,
+      52,
+      180
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_red": {
+    "color": [
+      231,
+      40,
+      80
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_turquoise": {
+    "color": [
+      66,
+      255,
+      189
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_opal": {
+    "color": [
+      82,
+      221,
+      96
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_white": {
+    "color": [
+      235,
+      234,
+      239
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_green": {
+    "color": [
+      166,
+      211,
+      60
+    ],
+    "type": "solid"
+  },
+  "gem_box2d_orange": {
+    "color": [
+      137,
+      218,
+      121
+    ],
+    "type": "solid"
+  },
+  "gold_box2d": {
+    "color": [
+      255,
+      199,
+      78
+    ],
+    "type": "solid"
+  },
+  "bloodgold_box2d": {
+    "color": [
+      255,
+      78,
+      78
+    ],
+    "type": "solid"
+  },
+  "metal_nohit": {
+    "color": [
+      173,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "metal_chain_nohit": {
+    "color": [
+      173,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "metal_wire_nohit": {
+    "color": [
+      173,
+      45,
+      172
+    ],
+    "type": "solid"
+  },
+  "metal_rust": {
+    "color": [
+      77,
+      45,
+      60
+    ],
+    "type": "solid"
+  },
+  "metal_rust_barrel": {
+    "color": [
+      77,
+      45,
+      60
+    ],
+    "type": "solid"
+  },
+  "bone_box2d": {
+    "color": [
+      28,
+      45,
+      44
+    ],
+    "type": "solid"
+  },
+  "magic_crystal_green": {
+    "color": [
+      178,
+      215,
+      64
+    ],
+    "type": "solid"
+  },
+  "gold_b2": {
+    "color": [
+      254,
+      250,
+      228
+    ],
+    "type": "solid"
+  },
+  "crystal_purple": {
+    "color": [
+      165,
+      61,
+      119
+    ],
+    "type": "solid"
+  },
+  "crystal_solid": {
+    "color": [
+      165,
+      173,
+      17
+    ],
+    "type": "solid"
+  },
+  "meat_fruit": {
+    "color": [
+      204,
+      76,
+      76
+    ],
+    "type": "solid"
+  },
+  "meat_pumpkin": {
+    "color": [
+      255,
+      83,
+      27
+    ],
+    "type": "solid"
+  },
+  "meat_warm": {
+    "color": [
+      91,
+      82,
+      70
+    ],
+    "type": "solid"
+  },
+  "meat_hot": {
+    "color": [
+      92,
+      82,
+      70
+    ],
+    "type": "solid"
+  },
+  "meat_done": {
+    "color": [
+      93,
+      82,
+      70
+    ],
+    "type": "solid"
+  },
+  "meat_burned": {
+    "color": [
+      94,
+      82,
+      70
+    ],
+    "type": "solid"
+  },
+  "neon_tube_cyan": {
+    "color": [
+      207,
+      247,
+      200
+    ],
+    "type": "solid"
+  },
+  "neon_tube_blood_red": {
+    "color": [
+      207,
+      247,
+      200
+    ],
+    "type": "solid"
+  },
+  "skullrock": {
+    "color": [
+      0,
+      163,
+      68
+    ],
+    "type": "solid"
+  }
+}

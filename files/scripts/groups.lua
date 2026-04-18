@@ -1,0 +1,396 @@
+-- Remember to keeps the sprites in sync with this file
+
+return {
+    ["acid"] = {
+        representative = "acid",
+        members        = { "acid" },
+        weight         = 1000,
+    },
+    ["acid_gas"] = {
+        representative = "gas",
+        members        = { "acid_gas", "fungal_gas", "alcohol_gas", "poison_gas", "radioactive_gas","acid_gas_static", "radioactive_gas_static", "cloud_radioactive", "poo_gas", "smoke", "smoke_explosion", "smoke_magic", "smoke_static" },
+        weight         = 1000,
+        out_max_index  = 5,
+    },
+    ["alcohol"] = {
+        representative = "alcohol",
+        members        = { "alcohol", "beer", "molut", "juhannussima", "sima" },
+        weight         = 1000,
+    },
+    ["aluminium"] = {
+        representative = "metal",
+        members        = { "aluminium", "metal", "copper", "brass",  "metal_hard", "aluminium_oxide", "aluminium_robot", "metal_chain_nohit",  "metal_nohit", "metal_prop", "metal_prop_loose", "metal_prop_low_restitution", "metal_rust", "metal_rust_barrel", "metal_wire_nohit", "metal_rust_barrel_rust", "metal_rust_rust" },
+        weight         = 1000,
+        out_max_index  = 4,
+    },
+    ["blood"] = {
+        representative = "blood",
+        members        = { "blood", "blood_fading", "blood_fading_slow", "blood_thick", "cloud_blood" },
+        weight         = 1000,
+        out_max_index  = 1,
+    },
+    ["blood_cold"] = {
+        representative = "freezing liquid",
+        members        = { "blood_cold", "blood_cold_vapour" },
+        weight         = 1000,
+    },
+    ["blood_fungi"] = {
+        representative = "fungal blood",
+        members        = { "blood_fungi" },
+        weight         = 200,
+    },
+    ["bone"] = {
+        representative = "bone",
+        members        = { "bone", "bone_box2d", "bone_static" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+    ["brick"] = {
+        representative = "brick",
+        members        = { "brick" },
+        weight         = 10,
+    },
+    ["cement"] = {
+        representative = "cement",
+        members        = { "cement" },
+        weight         = 500,
+    },
+    ["cheese_static"] = {
+        representative = "cheese",
+        members        = { "cheese_static" },
+        weight         = 10,
+    },
+    ["cloud"] = {
+        representative = "cloud",
+        members        = { "cloud", "cloud_lighter" },
+        weight         = 10,
+    },
+    ["coal"] = {
+        representative = "coal",
+        members        = { "coal", "coal_static" },
+        weight         = 1000,
+        out_max_index  = 1,
+    },
+    ["concrete_static"] = {
+        representative = "concrete",
+        members        = { "concrete_sand", "concrete_collapsed", "concrete_static" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+    ["creepy_liquid"] = {
+        representative = "creepy liquid",
+        members        = { "creepy_liquid", "creepy_liquid_emitter" },
+        weight         = 1,
+    },
+    ["crystal"] = {
+        representative = "crystal",
+        members        = { "crystal", "crystal_magic", "crystal_purple", "crystal_solid", "gem_box2d", "gem_box2d_darksun", "gem_box2d_green", "gem_box2d_opal", "gem_box2d_orange", "gem_box2d_pink", "gem_box2d_red", "gem_box2d_red_float", "gem_box2d_turquoise", "gem_box2d_white", "gem_box2d_yellow_sun", "gem_box2d_yellow_sun_gravity", "gold_b2", "magic_crystal", "magic_crystal_green" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+    ["diamond"] = {
+        representative = "diamond",
+        members        = { "diamond" },
+        weight         = 200,
+    },
+    ["fire"] = {
+        representative = "fire",
+        members        = { "fire", "fire_blue", "flame", "liquid_fire", "liquid_fire_weak" },
+        weight         = 1000,
+    },
+    ["fungi"] = {
+        representative = "fungi",
+        members        = { "fungi", "fungi_creeping", "fungi_creeping_secret", "fungi_green", "fungi_yellow", "fungisoil", "fungus_powder", "fungus_powder_bad" },
+        weight         = 100,
+    },
+    ["glass"] = {
+        representative = "glass",
+        members        = { "glass", "glass_box2d", "glass_brittle", "glass_broken", "glass_liquidcave", "glass_static", "potion_glass_box2d" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+    ["glass_molten"] = {
+        representative = "molten glass",
+        members        = { "glass_broken_molten", "glass_molten" },
+        weight         = 100,
+    },
+    ["glue"] = {
+        representative = "glue",
+        members        = { "glue" },
+        weight         = 100,
+    },
+    ["gold"] = {
+        representative = "gold",
+        members        = {"gold", "gold_radioactive", "bloodgold_box2d", "gold_box2d",  "gold_static", "gold_static_dark", "gold_static_radioactive" },
+        weight         = 100,
+        out_max_index  = 2,
+    },
+    ["gold_molten"] = {
+        representative = "molten metal",
+        members        = { "aluminium_molten", "aluminium_oxide_molten", "aluminium_robot_molten", "brass_molten", "copper_molten", "gold_molten", "metal_molten", "metal_nohit_molten", "metal_prop_molten", "metal_rust_molten", "metal_sand_molten", "silver_molten", "steel_molten", "steel_rust_molten", "steel_static_molten", "steelmoss_slanted_molten", "steelmoss_static_molten", "steelsmoke_static_molten" },
+        weight         = 500,
+    },
+    ["grass"] = {
+        representative = "grass",
+        members        = { "grass", "grass_dark", "grass_darker", "grass_dry", "grass_ice" },
+        weight         = 10,
+    },
+    ["grass_holy"] = {
+        representative = "holy grass",
+        members        = { "grass_holy" },
+        weight         = 5,
+    },
+    ["gunpowder"] = {
+        representative = "gunpowder",
+        members        = { "gunpowder", "gunpowder_explosive", "gunpowder_tnt", "shock_powder", "gunpowder_unstable", "gunpowder_unstable_big" },
+        weight         = 500,
+    },
+    ["honey"] = {
+        representative = "honey",
+        members        = { "honey" },
+        weight         = 100,
+    },
+    ["ice"] = {
+        representative = "ice",
+        members        = { "ice", "ice_acid_static", "ice_b2", "ice_blood_static", "ice_ceiling", "ice_cold_static", "ice_melting_perf_killer", "ice_meteor_static", "ice_poison_static", "ice_radioactive_static", "ice_slime_static", "ice_static", "rock_static_intro_breakable", "ice_acid_glass", "ice_blood_glass", "ice_cold_glass", "ice_glass", "ice_glass_b2", "ice_poison_glass", "ice_radioactive_glass", "ice_slime_glass" },
+        weight         = 500,
+        out_max_index  = 1,
+    },
+    ["lava"] = {
+        representative = "lava",
+        members        = { "lava" },
+        weight         = 1000,
+    },
+    ["magic_gas_polymorph"] = {
+        representative = "magical gas",
+        members        = { "magic_gas_fungus", "magic_gas_hp_regeneration", "magic_gas_midas", "magic_gas_polymorph", "magic_gas_teleport", "magic_gas_weakness", "magic_gas_worm_blood" },
+        weight         = 50,
+    },
+    ["magic_liquid"] = {
+        representative = "magic liquid",
+        members        = { "magic_liquid", "magic_liquid_berserk", "magic_liquid_charm", "magic_liquid_faster_levitation", "magic_liquid_faster_levitation_and_movement", "magic_liquid_invisibility", "magic_liquid_mana_regeneration", "magic_liquid_movement_faster", "magic_liquid_polymorph", "magic_liquid_protection_all", "magic_liquid_random_polymorph", "magic_liquid_teleportation", "magic_liquid_unstable_polymorph", "magic_liquid_unstable_teleportation", "magic_liquid_weakness", "magic_liquid_worm_attractor", "material_confusion", "blood_worm" },
+        weight         = 2000,
+    },
+    ["magic_liquid_hp_regeneration"] = {
+        representative = "regeneration liquid",
+        members        = { "magic_liquid_hp_regeneration", "magic_liquid_hp_regeneration_unstable", },
+        weight         = 10,
+    },
+    ["material_rainbow"] = {
+        representative = "rainbow",
+        members        = { "material_rainbow" },
+        weight         = 10,
+    },
+    ["meat"] = {
+        representative = "meat",
+        members        = { "meat", "meat_burned", "meat_confusion", "meat_cursed", "meat_cursed_dry", "meat_done", "meat_fast", "meat_frog", "meat_fruit", "meat_helpless", "meat_hot", "meat_polymorph", "meat_polymorph_protection", "meat_pumpkin", "meat_static", "meat_teleport", "meat_trippy", "meat_warm", "meat_worm", "rotten_meat_radioactive", "rotten_meat", "meat_slime", "meat_slime_cursed", "meat_slime_green", "meat_slime_orange", "meat_slime_sand" },
+        weight         = 200,
+    },
+    ["meteorite"] = {
+        representative = "meteorite",
+        members        = { "meteorite", "meteorite_crackable", "meteorite_green", "meteorite_static", "meteorite_test" },
+        weight         = 100,
+    },
+    ["midas"] = {
+        representative = "midas",
+        members        = { "midas", "midas_precursor" },
+        weight         = 5,
+    },
+    ["milk"] = {
+        representative = "milk",
+        members        = { "milk" },
+        weight         = 200,
+    },
+    ["monster_powder_test"] = {
+        representative = "monster powder",
+        members        = { "monster_powder_test", "rat_powder" },
+        weight         = 1,
+    },
+    ["moss"] = {
+        representative = "moss",
+        members        = { "moss", "moss_rust", "peat", "mushroom", "mushroom_seed", "mushroom_giant_blue", "mushroom_giant_red", "plant_seed", "bush_seed", "glowshroom" },
+        weight         = 5,
+        out_max_index  = 1,
+    },
+    ["neon_tube_purple"] = {
+        representative = "neon tube",
+        members        = { "neon_tube_blood_red", "neon_tube_cyan", "neon_tube_purple", "tube_physics", "tubematerial" },
+        weight         = 10,
+    },
+    ["oil"] = {
+        representative = "oil",
+        members        = { "oil" },
+        weight         = 1000,
+    },
+    ["orb_powder"] = {
+        representative = "orb powder",
+        members        = { "orb_powder" },
+        weight         = 10,
+    },
+    ["plant_material"] = {
+        representative = "plant",
+        members        = { "plant_material", "plant_material_dark", "plant_material_red", "cocoon_box2d", "nest_box2d", "nest_firebug_box2d", "nest_static" },
+        weight         = 5,
+        out_max_index  = 1,
+    },
+    ["plasma_fading"] = {
+        representative = "plasma",
+        members        = { "plasma_fading", "plasma_fading_bright", "plasma_fading_green", "plasma_fading_pink" },
+        weight         = 10,
+    },
+    ["plastic"] = {
+        representative = "plastic",
+        members        = { "plastic", "plastic_red" ,"plastic_prop" },
+        weight         = 10,
+        out_max_index  = 2,
+    },
+    ["plastic_molten"] = {
+        representative = "molten plastic",
+        members        = { "plastic_molten", "plastic_red_molten", "plastic_prop_molten" },
+        weight         = 10,
+        out_max_index  = 2,
+    },
+    ["poison"] = {
+        representative = "poison",
+        members        = { "poison", "poison_gas", "material_darkness" },
+        weight         = 100,
+    },
+    ["poo"] = {
+        representative = "poo",
+        members        = { "poo", "mammi", "pus", "poop_box2d_hard" },
+        weight         = 10,
+        out_max_index  = 3,
+    },
+    ["porridge"] = {
+        representative = "porridge",
+        members        = { "porridge" },
+        weight         = 5,
+    },
+    ["radioactive_liquid"] = {
+        representative = "toxic liquid",
+        members        = { "cursed_liquid", "radioactive_liquid", "radioactive_liquid_yellow", "radioactive_liquid_fading" },
+        weight         = 1000,
+        out_max_index  = 3,
+    },
+    ["rainbow_gas"] = {
+        representative = "rainbow gas",
+        members        = { "rainbow_gas" },
+        weight         = 10,
+    },
+    ["rock_static"] = {
+        representative = "rock",
+        members        = { "lavarock_static", "waterrock", "rock_eroding", "rock_hard", "rock_hard_border", "rock_magic_bottom", "rock_magic_gate", "rock_static", "rock_static_box2d", "rock_static_fungal", "rock_static_glow", "rock_static_grey", "rock_static_intro", "rock_static_noedge", "rock_static_poison", "rock_static_purple", "rock_static_radioactive", "rock_static_trip_secret", "rock_static_trip_secret2", "rock_static_wet", "rock_vault", "rock_box2d", "rock_box2d_hard", "rock_box2d_nohit", "rock_box2d_nohit_hard", "rock_box2d_nohit_heavy" },
+        weight         = 1000,
+    },    
+    ["corruption_static"] = {
+        representative = "unholy rock",
+        members        = { "corruption_static" },
+        weight         = 1,
+    },
+    ["rock_static_cursed"] = {
+        representative = "cursed rock",
+        members        = { "rock_static_cursed", "rock_static_cursed_green" },
+        weight         = 10,
+    },
+    ["salt"] = {
+        representative = "salt",
+        members        = { "burning_powder", "purifying_powder", "salt", "sodium", "sodium_unstable" },
+        weight         = 100,
+    },
+    ["sand"] = {
+        representative = "sand",
+        members        = { "lavasand", "sand", "sand_blue", "sand_herb", "sand_petrify", "sand_surface", "sand_static", "sand_static_bright", "sand_static_rainforest", "sand_static_rainforest_dark", "sand_static_red" },
+        weight         = 500,
+    },
+    ["sandstone"] = {
+        representative = "sandstone",
+        members        = { "sandstone", "sandstone_surface" },
+        weight         = 100,
+    },
+    ["silver"] = {
+        representative = "silver",
+        members        = { "metal_sand", "silver", "steel_sand" },
+        weight         = 100,
+    },
+    ["slime"] = {
+        representative = "slime",
+        members        = { "slime", "endslime", "endslime_blood", "endslime_static", "pea_soup", "slime_green", "slime_static", "slime_yellow", "cloud_slime", "gunpowder_unstable_boss_limbs" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+    ["slush"] = {
+        representative = "slush",
+        members        = { "slush" },
+        weight         = 100,
+    },
+    ["snow"] = {
+        representative = "snow",
+        members        = { "snow", "snow_b2", "snow_static", "snow_sticky", "snowrock_static" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+    ["soil"] = {
+        representative = "soil",
+        members        = { "mud", "soil", "soil_dark", "soil_dead", "soil_lush", "soil_lush_dark" },
+        weight         = 100,
+    },
+    ["spark"] = {
+        representative = "spark",
+        members        = { "spark", "spark_blue", "spark_blue_dark", "spark_electric", "spark_green", "spark_green_bright", "spark_player", "spark_purple", "spark_purple_bright", "spark_red", "spark_red_bright", "spark_teal", "spark_white", "spark_white_bright", "spark_yellow" },
+        weight         = 50,
+    },
+    ["spore"] = {
+        representative = "spore",
+        members        = { "spore", "spore_pod_stalk", "bluefungi_static" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+    ["steam"] = {
+        representative = "steam",
+        members        = { "steam", "steam_trailer", "sand_herb_vapour", "rocket_particles" },
+        weight         = 100,
+    },
+    ["steel_static"] = {
+        representative = "steel",
+        members        = { "steel", "rust_static", "steel_rust", "steel_grey_static", "steel_rusted_no_holes", "steel_static", "steel_static_strong", "steel_static_unmeltable", "steelfrost_static", "steelmoss_slanted", "steelmoss_static", "steelpipe_static", "steelsmoke_static" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+    ["sulphur"] = {
+        representative = "sulphur",
+        members        = { "sulphur", "sulphur_box2d" },
+        weight         = 10,
+    },
+    ["templerock_static"] = {
+        representative = "templerock",
+        members        = { "glowstone", "glowstone_altar", "glowstone_altar_hdr", "glowstone_potion", "skullrock", "templebrick_box2d", "templebrick_box2d_edgetiles", "templebrick_diamond_static", "templebrick_golden_static", "templebrick_moss_static", "templebrick_noedge_static", "templebrick_red", "templebrick_static", "templebrick_static_broken", "templebrick_static_ruined", "templebrick_static_soft", "templebrick_thick_static", "templebrick_thick_static_noedge", "templebrickdark_static", "templerock_soft", "templerock_static", "templeslab_crumbling_static", "templeslab_static", "the_end", "wizardstone" },
+        weight         = 100,
+    },
+    ["urine"] = {
+        representative = "urine",
+        members        = { "urine" },
+        weight         = 10,
+    },
+    ["water"] = {
+        representative = "water",
+        members        = {"swamp", "mimic_liquid", "void_liquid", "water", "water_fading", "water_ice", "water_salt", "water_static", "water_swamp", "water_temp" },
+        weight         = 1000,
+    },
+    ["just_death"] = {
+        representative = "just_death",
+        members        = { "just_death" },
+        weight         = 1,
+    },
+    ["wax"] = {
+        representative = "wax",
+        members        = { "wax", "wax_molten" ,"wax_b2" },
+        weight         = 100,
+        out_max_index  = 2,
+    },
+    ["wood"] = {
+        representative = "wood",
+        members        = { "wood", "wood_player", "wood_player_b2", "wood_player_b2_vertical", "wood_prop", "wood_prop_durable", "wood_prop_noplayerhit", "wood_wall", "cactus", "fungus_loose", "fungus_loose_green", "fungus_loose_trippy", "grass_loose", "wood_loose", "wood_trailer", "wood_burns_forever", "wood_static", "wood_static_gas", "wood_static_vertical", "wood_static_wet", "wood_tree" },
+        weight         = 100,
+        out_max_index  = 1,
+    },
+}
