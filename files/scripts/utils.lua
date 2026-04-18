@@ -2,6 +2,7 @@ local MOD_ID   = "randomTransmutation"
 local MOD_ROOT =  "mods/" .. MOD_ID .. "/"
 
 local default_sprite = MOD_ROOT.. "files/ui_gfx/gun_actions/random_transmutation.png"
+local log = dofile_once("mods/randomTransmutation/logger.lua")
 
 -- ── Variables de carte ────────────────────────────────────────────────────────
 
@@ -104,7 +105,8 @@ end
 
 -- ── Résolution de l'entité carte ──────────────────────────────────────────────
 
-local function get_card_id()
+local function get_card_id(recursion_level, iteration)	
+
 	local entity_id = GetUpdatedEntityID()
 	local inventory = EntityGetFirstComponent(entity_id, "Inventory2Component")
 	if inventory then

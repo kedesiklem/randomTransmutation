@@ -19,17 +19,22 @@ local rt_spellappends = {
 		mana = 30,
 		--max_uses = 50,
 		action = function(recursion_level, iteration)
-			local card_id = rt.get_card_id()
+			local card_id = rt.get_card_id(recursion_level, iteration)
 			if card_id then
 
-				local mat_from = rt.get_card_var(card_id, "rt_from", 1)
-				local mat_to   = rt.get_card_var(card_id, "rt_to",   1)
+				local mat_from = rt.get_card_var(card_id, "rt_from")
+				local mat_to   = rt.get_card_var(card_id, "rt_to")
 
-				SpellDatat.push(MOD_ID .. ":from", mat_from)
-				SpellDatat.push(MOD_ID .. ":to",   mat_to)
-				log.debug("SET : " .. mat_from .. " " .. mat_to)
+				if (mat_from ~= nil) and (mat_to ~= nil) then
 
-				c.extra_entities = c.extra_entities .. MOD_ROOT .. "/entities/misc/random_transmutation.xml,data/entities/particles/tinyspark_red.xml,"
+					SpellDatat.push(MOD_ID .. ":from", mat_from)
+					SpellDatat.push(MOD_ID .. ":to",   mat_to)
+					log.debug("SET : " .. mat_from .. " -> " .. mat_to)
+
+					c.extra_entities = c.extra_entities .. MOD_ROOT .. "/entities/misc/random_transmutation.xml,data/entities/particles/tinyspark_red.xml,"
+				else
+					log.debug("Invalid : " .. tostring(mat_from) .. " -> " .. tostring(mat_to))
+				end
 			end
 			draw_actions( 1, true )
 		end
