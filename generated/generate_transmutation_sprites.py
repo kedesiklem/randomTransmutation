@@ -336,9 +336,7 @@ def generate_sprite(
                 f"'{name}' a le type '{materials[name]['type']}' "
                 f"qui n'a pas d'asset défini dans TYPE_ASSET."
             )
-    if mat_a == mat_b:
-        raise ValueError(f"Les deux matériaux sont identiques : '{mat_a}'.")
-
+        
     data_a = materials[mat_a]
     data_b = materials[mat_b]
 
@@ -390,7 +388,7 @@ def _run_pairs(
 def generate_all(output_dir: Path, materials: dict, assets_dir: Path) -> None:
     """Génère les sprites pour toutes les paires de matériaux (sans groupes)."""
     valid = {n: d for n, d in materials.items() if d["type"] in TYPE_ASSET}
-    pairs = list(itertools.permutations(valid.keys(), 2))
+    pairs = list(itertools.product(valid.keys(), repeat=2))
     _run_pairs(pairs, output_dir, materials, assets_dir)
 
 
@@ -414,7 +412,7 @@ def generate_all_groups(output_dir: Path, groups: dict, assets_dir: Path) -> Non
         name: {"color": data["color"], "type": data["type"]}
         for name, data in groups.items()
     }
-    pairs = list(itertools.permutations(groups.keys(), 2))
+    pairs = list(itertools.product(groups.keys(), repeat=2))
     _run_pairs(pairs, output_dir, group_as_materials, assets_dir)
 
 

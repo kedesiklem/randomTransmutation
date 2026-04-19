@@ -69,7 +69,7 @@ function CreateItemActionEntity(action_id, ...)
         local groups = get_groups()
 
         local from_group_name, from_group = pick_weighted(groups)
-        local to_group_name,   to_group   = pick_weighted(groups, from_group_name)
+        local to_group_name,   to_group   = pick_weighted(groups)
 
         if not from_group or not to_group then
             log.warn("Impossible de sélectionner deux groupes distincts.")

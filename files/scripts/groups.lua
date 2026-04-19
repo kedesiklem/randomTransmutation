@@ -15,13 +15,13 @@ return {
     ["alcohol"] = {
         representative = "alcohol",
         members        = { "alcohol", "beer", "molut", "juhannussima", "sima" },
-        weight         = 1000,
+        weight         = 200,
     },
     ["aluminium"] = {
         representative = "metal",
-        members        = { "aluminium", "metal", "copper", "brass",  "metal_hard", "aluminium_oxide", "aluminium_robot", "metal_chain_nohit",  "metal_nohit", "metal_prop", "metal_prop_loose", "metal_prop_low_restitution", "metal_rust", "metal_rust_barrel", "metal_wire_nohit", "metal_rust_barrel_rust", "metal_rust_rust" },
+        members        = { "metal", "copper", "brass", "aluminium",  "metal_hard", "aluminium_oxide", "aluminium_robot", "metal_chain_nohit",  "metal_nohit", "metal_prop", "metal_prop_loose", "metal_prop_low_restitution", "metal_rust", "metal_rust_barrel", "metal_wire_nohit", "metal_rust_barrel_rust", "metal_rust_rust" },
         weight         = 1000,
-        out_max_index  = 4,
+        out_max_index  = 3,
     },
     ["blood"] = {
         representative = "blood",
@@ -32,7 +32,7 @@ return {
     ["blood_cold"] = {
         representative = "freezing liquid",
         members        = { "blood_cold", "blood_cold_vapour" },
-        weight         = 1000,
+        weight         = 200,
     },
     ["blood_fungi"] = {
         representative = "fungal blood",
@@ -53,7 +53,7 @@ return {
     ["cement"] = {
         representative = "cement",
         members        = { "cement" },
-        weight         = 500,
+        weight         = 100,
     },
     ["cheese_static"] = {
         representative = "cheese",
@@ -74,19 +74,13 @@ return {
     ["concrete_static"] = {
         representative = "concrete",
         members        = { "concrete_sand", "concrete_collapsed", "concrete_static" },
-        weight         = 100,
+        weight         = 10,
         out_max_index  = 1,
     },
     ["creepy_liquid"] = {
         representative = "creepy liquid",
         members        = { "creepy_liquid", "creepy_liquid_emitter" },
         weight         = 1,
-    },
-    ["crystal"] = {
-        representative = "crystal",
-        members        = { "crystal", "crystal_magic", "crystal_purple", "crystal_solid", "gem_box2d", "gem_box2d_darksun", "gem_box2d_green", "gem_box2d_opal", "gem_box2d_orange", "gem_box2d_pink", "gem_box2d_red", "gem_box2d_red_float", "gem_box2d_turquoise", "gem_box2d_white", "gem_box2d_yellow_sun", "gem_box2d_yellow_sun_gravity", "gold_b2", "magic_crystal", "magic_crystal_green" },
-        weight         = 100,
-        out_max_index  = 1,
     },
     ["diamond"] = {
         representative = "diamond",
@@ -374,7 +368,7 @@ return {
     ["water"] = {
         representative = "water",
         members        = {"swamp", "mimic_liquid", "void_liquid", "water", "water_fading", "water_ice", "water_salt", "water_static", "water_swamp", "water_temp" },
-        weight         = 1000,
+        weight         = 2000,
     },
     ["just_death"] = {
         representative = "just_death",
