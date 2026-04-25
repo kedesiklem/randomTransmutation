@@ -1,6 +1,6 @@
 <Mod
 	name="Random Transmutation"
-	description="Add a spell that transmute a material into another"
+	description="[h2] Add 30K+ spells in one : Random Transmutation. [/h2]\n\nWhen the spell spawn, it randomly selects a material transmutation (e.g. Water into Blood) and keeps it for its entire lifetime. The spell behaves like a standard transmutation modifier.\n\n[i]Known limitation[/i] : because the transmutation input/output are stored in the card entity, the spell won't work if copied (divide/greek letter/ add trigger ...)\n\nIf you know a way to get the card ID from the action function reliably, I'm very interested"
 	tags=""
 	dont_upload_folders=""
 	dont_upload_files=""

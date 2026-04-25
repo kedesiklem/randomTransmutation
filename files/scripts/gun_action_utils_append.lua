@@ -62,10 +62,13 @@ end
 
 -- ── Hook ─────────────────────────────────────────────────────────────────────
 
-function CreateItemActionEntity(action_id, ...)
-    local card_id = _original_CreateItemActionEntity(action_id, ...)
+function CreateItemActionEntity(action_id, x,y)
+    local card_id = _original_CreateItemActionEntity(action_id, x,y)
 
     if action_id == "RANDOMTRANSMUTATION_RT" and card_id ~= 0 and card_id ~= nil then
+        
+        SetRandomSeed(x,y)
+
         local groups = get_groups()
 
         local from_group_name, from_group = pick_weighted(groups)

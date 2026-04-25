@@ -19,3 +19,7 @@ When the spell is spawned, it randomly selects a material transmutation (e.g. Wa
 This mod uses **SpellDatat**, a library for passing arbitrary data from spell actions to their projectiles. SpellDatat is designed to be compatible with other mods using the same tech (Copi, Apoth).
 
 If you are a modder and want to use SpellDatat in your own mod, namespace your keys with your mod name (e.g. `"myMod:myKey"`) to avoid conflicts.
+
+## TODO
+
+Better sprite (currently just generated from material color)
